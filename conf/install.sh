@@ -2,8 +2,7 @@
 
 set -e
 
-INSTALL_DIR="~/614-install"
-WGET="wget -c --timeout=15"
+. ~/608/conf/common
 
 mkdir -p $INSTALL_DIR
 cd $INSTALL_DIR
