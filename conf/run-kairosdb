@@ -1,0 +1,8 @@
+#!/bin/bash
+
+. $HOME/608/conf/common
+cd $INSTALL_DIR/kairosdb/bin
+
+# https://kairosdb.github.io/kairosdocs/GettingStarted.html#install
+# To start KairosDB and run in the foreground type
+./kairosdb.sh run
