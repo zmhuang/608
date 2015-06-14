@@ -2,7 +2,7 @@
 
 set -e
 
-. ~/608/conf/common
+. $HOME/608/conf/common
 
 mkdir -p $INSTALL_DIR
 cd $INSTALL_DIR
