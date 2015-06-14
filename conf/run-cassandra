@@ -1,6 +1,6 @@
 #!/bin/sh
 set -e
 
-. $HOME/608/config
+. $HOME/608/conf/common
 cd $INSTALL_DIR/dsc-cassandra-2.1.6
 bin/cassandra -f

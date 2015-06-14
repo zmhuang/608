@@ -1,3 +1,5 @@
+. $HOME/608/config
+
 INSTALL_DIR="$HOME/614-install"
 WGET="wget -c --timeout=15"
 myCP="/bin/cp -v"
