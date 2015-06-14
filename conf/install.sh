@@ -7,6 +7,7 @@ set -e
 mkdir -p $INSTALL_DIR
 cd $INSTALL_DIR
 
+# 如果连接超时尝试关掉 TERM 窗口重新执行 install.sh。
 $WGET https://github.com/kairosdb/kairosdb/releases/download/v1.0.0/kairosdb-1.0.0-1.tar.gz
 tar xf kairosdb-1.0.0-1.tar.gz
 
